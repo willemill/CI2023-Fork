@@ -1,4 +1,4 @@
-name: run-tests
+name: Run_test_Pre-commit
 
 on:
   push:
