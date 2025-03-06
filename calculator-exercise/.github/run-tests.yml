@@ -2,12 +2,12 @@ name: pycalc tests
 
 on:
   push:
-    branches:
+    branches: ['WM_FS']
   pull_request:
-    branches:
+    branches: ['main']
 
 permissions:
-  contents: read
+  contents: read, execute
 
 jobs:
   build:
