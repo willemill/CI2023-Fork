@@ -26,8 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest pycalc
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install -e './calculator_exercise[dev]'
     - name: run tests with pytest
       run: |
-        pytest
+        python3 -m pytest
