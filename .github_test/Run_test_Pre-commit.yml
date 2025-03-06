@@ -2,7 +2,7 @@ name: run-tests
 
 on:
   push:
-    branches: ['WM_FS']
+    branches: ['Frankie-Restructure']
   pull_request:
     branches: ['main']
 
