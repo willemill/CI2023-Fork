@@ -1,4 +1,4 @@
-name: pycalc tests
+name: run-tests
 
 on:
   push:
