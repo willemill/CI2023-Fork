@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.13.2"
-    - name: enter dir
+    - name:
       run: |
         cd calculator-exercise
     - name: Install dependencies
